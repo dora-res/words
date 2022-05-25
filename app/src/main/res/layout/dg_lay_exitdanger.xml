@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/norm_white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Жалко, что вы не доиграли!"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/word_bomb_dg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Слово-бомба: "
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/from_dg_danger_to_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/in_menu"
+        android:layout_marginVertical="20dp"
+        android:backgroundTint="@color/my_yellow"
+        android:textColor="#232323"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

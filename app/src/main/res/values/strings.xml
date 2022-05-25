@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Слова</string>
+    <string name="rules_of_game">Это игра для 2 и более игроков.
+Необходимо называть по одному слову по определенному правилу для каждого из режимов.
+Важно называть существующие слова и не повторять одни и те же слова. Не нужно писать слова через тире,
+дефис, пробел, с цифрами и специальными символами (, ~ ` @ ! # № $ % ^ &amp; * ; : ( ) \ / | и тд). Слова должны быть в начальной форме
+\n Режимы: классика, хард, быстрый и опасный.
+    </string>
+    <string name="txt_classic">Классика</string>
+    <string name="txt_hard">Хард</string>
+    <string name="txt_fast">Быстрый</string>
+    <string name="txt_danger">Опасный</string>
+    <string name="txt_rules_classic">Общие правила никак не меняются, все отстается также</string>
+    <string name="txt_rules_fast">Общие правила не меняются, кроме времени ответа. Время можно самостоятельно установить от 5 до 60 секунд. За это время каждый игрок должен придумать подходящее слово, записать в поле для ответа и нажать кнопку Ход сделан!</string>
+    <string name="txt_rules_hard">В режиме "Хард" слова надо называть, которые заканчиваются на первую букву предыдушего слова. Например: глаза - мозг - сом и тд. Самое первое слово должно оканчиваться на А, а дальше все зависит от ваших слов. В остальном все остается прежним.</string>
+    <string name="txt_rules_danger">Основные правила остаются, но добавляется дополнительное условие. Кто-то один из игроков придумывает, какое слово будет запрещено, то есть его нельзя будет писать. Это слово никто, кроме него, не должен знать! Как только кто-то в игре пишет это слово, он проигрывает.</string>
+    <string name="write_word">Введите слово</string>
+    <string name="hod_is_ready">Ход сделан!</string>
+    <string name="end_game">Заканчиваем игру</string>
+    <string name="write_word_started_on_A">Введите слово на букву А</string>
+    <string name="player_smb_your_hod">Игрок какой-то, ваш ход</string>
+    <string name="empty_words">Пока слов нет(</string>
+    <string name="all_words">Все слова:</string>
+    <string name="players">Игроки:</string>
+    <string name="mini_rules_on_dg_for_danger">Кому-то из вас надо записать слово, которое нельзя будет писать всем. Только он будет знать это слово. Написал слово-бомбу - проиграл!</string>
+    <string name="word_bomb">Слово-бомба</string>
+    <string name="word_wrote">Слово записано!</string>
+    <string name="player_smb_looser">Игрок такой-то проиграл!</string>
+    <string name="motivathion_for_looser">К сожалению, вы, игрок такой-то, проиграли сейчас.\nЗапасайтесь новыми словами и снова в бой!</string>
+    <string name="in_menu">В меню</string>
+    <string name="game_end">ИГРА ОКОНЧЕНА!</string>
+    <string name="rules_for_each_types_of_game">Правила для каждого варианта игры</string>
+    <string name="to_main_rules">Основа</string>
+    <string name="to_tipes_rules">Режимы</string>
+    <string name="game_on_words">ИГРА В СЛОВА</string>
+    <string name="write_player_on_space">Запишите через пробел имена всех участников</string>
+    <string name="names">Имена</string>
+    <string name="choose_types_of_game">Выбирайте тип игры:</string>
+    <string name="txt_mainrules">Основные правила</string>
+</resources>

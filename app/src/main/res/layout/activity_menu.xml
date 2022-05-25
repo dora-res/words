@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/norm_white">
+
+    <LinearLayout
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="15dp"
+        >
+
+        <!--Button
+            android:id="@+id/btn_mainRules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_main_rules"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            android:backgroundTint="@color/my_yellow"
+            /-->
+
+        <TextView
+            android:id="@+id/btn_mainRules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rules"
+            android:text="@string/to_main_rules"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_dopRules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_tipes_rules"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/btn_rules"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/zagolovok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btns"
+        android:layout_marginBottom="35sp"
+        android:gravity="center_horizontal"
+        android:text="@string/game_on_words"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/quastion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zagolovok"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="20dp"
+        android:textColor="@color/norm_black"
+        android:text="@string/write_player_on_space"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/names_of_players"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quastion1"
+        android:hint="@string/names"
+        android:paddingVertical="20dp"
+        android:textColor="@color/norm_black"
+        android:textColorHint="#605E5E" />
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/names_of_players"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="#DF1010"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/warning"
+        android:layout_marginVertical="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/choose_types_of_game"
+        android:textColor="@color/norm_black"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/d"
+        android:layout_below="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btn_to_classic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_classic"
+            android:layout_weight="1"
+            android:backgroundTint="@color/my_yellow"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btn_to_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_hard"
+            android:layout_weight="1"
+            android:backgroundTint="@color/my_yellow"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btn_to_fast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_fast"
+            android:layout_weight="1"
+            android:backgroundTint="@color/my_yellow"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btn_to_danger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_danger"
+            android:layout_weight="1"
+            android:backgroundTint="@color/my_yellow"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

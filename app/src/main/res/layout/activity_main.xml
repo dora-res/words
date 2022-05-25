@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/norm_white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/txt_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:gravity="center_horizontal"
+        android:text="ИГРА В СЛОВА"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_rules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_head"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/rules_of_game"
+        android:textColor="@color/norm_black"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/btn_to_start_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_rules"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginVertical="125dp"
+        android:backgroundTint="@color/my_yellow"
+        android:text="Начинаем игру!"
+        android:textColor="#232323"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_rules"
+        android:layout_marginVertical="80dp"
+        android:indeterminateDrawable="@drawable/progress_bar" />
+</RelativeLayout>
